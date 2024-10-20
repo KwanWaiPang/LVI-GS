@@ -238,28 +238,30 @@
 
       </p>
     </div>
+
+    <!-- 跟其他算法对比 -->
     <div class="columns is-centered">
-      <!-- Visual Effects. -->
+      <!-- left. -->
       <div class="column">
         <div class="content">
           <div class="columns is-centered">
             <div class="column is-full-width">
               
-              <div id="example1" class="bal-container-small">
+              <div id="example5" class="bal-container-small">
     
-                <div class="bal-after">
-                  <img src="./static/img/after_1.png">
-                  <div class="bal-afterPosition afterLabel">
-                    After Compensation
-                  </div>
-                </div>
-              
                 <div class="bal-before">
                   <div class="bal-before-inset">
-                  <img src="./static/img/before_1.png">
+                  <img src="./static/img/comparison_monoGS/1_MonoGS.jpg">
                     <div class="bal-beforePosition beforeLabel">
-                      Before Compensation
+                      MonoGS
                     </div>
+                  </div>
+                </div>
+  
+                <div class="bal-after">
+                  <img src="./static/img/comparison_monoGS/1_LVI3DGS.png">
+                  <div class="bal-afterPosition afterLabel">
+                    Ours
                   </div>
                 </div>
               
@@ -275,28 +277,27 @@
         </div>
       </div>
       
-      <!--/ Visual Effects. -->
 
-      <!-- Matting. -->
+      <!-- right -->      
       <div class="column">
         <div class="columns is-centered">
           <div class="column content">
            
-            <div id="example2" class="bal-container-small">
-    
-              <div class="bal-after">
-                <img src="./static/img/after_2.png">
-                <div class="bal-afterPosition afterLabel">
-                  After Compensation
-                </div>
-              </div>
+            <div id="example6" class="bal-container-small">
             
               <div class="bal-before">
                 <div class="bal-before-inset">
-                <img src="./static/img/before_2.png">
+                <img src="./static/img/comparison_photoslam/4_photoslam.jpg">
                   <div class="bal-beforePosition beforeLabel">
-                    Before Compensation
+                    Photo SLAM
                   </div>
+                </div>
+              </div>
+
+              <div class="bal-after">
+                <img src="./static/img/comparison_photoslam/4_LVI3DGS.png">
+                <div class="bal-afterPosition afterLabel">
+                  Ours
                 </div>
               </div>
             
@@ -311,6 +312,160 @@
         </div>
       </div>
     </div>
+
+    <!-- 跟真值对比 -->
+    <div class="columns is-centered">
+      <!-- left. -->
+      <div class="column">
+        <div class="content">
+          <div class="columns is-centered">
+            <div class="column is-full-width">
+              
+              <div id="example3" class="bal-container-small">
+    
+                <div class="bal-before">
+                  <div class="bal-before-inset">
+                  <img src="./static/img/comparison_gt/3_groundtruth.png">
+                    <div class="bal-beforePosition beforeLabel">
+                      Ground Truth
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="bal-after">
+                  <img src="./static/img/comparison_gt/3_LVI3DGS.png">
+                  <div class="bal-afterPosition afterLabel">
+                    Ours
+                  </div>
+                </div>
+              
+                <div class="bal-handle">
+                  <span class=" handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- right -->      
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content">
+           
+            <div id="example4" class="bal-container-small">
+            
+              <div class="bal-before">
+                <div class="bal-before-inset">
+                <img src="./static/img/comparison_gt/4_groundtruth.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Ground Truth
+                  </div>
+                </div>
+              </div>
+
+              <div class="bal-after">
+                <img src="./static/img/comparison_gt/4_LVI3DGS.png">
+                <div class="bal-afterPosition afterLabel">
+                  Ours
+                </div>
+              </div>
+            
+              <div class="bal-handle">
+                <span class=" handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- 跟真值对比 -->
+    <div class="columns is-centered">
+      <!-- left. -->
+      <div class="column">
+        <div class="content">
+          <div class="columns is-centered">
+            <div class="column is-full-width">
+              
+              <div id="example1" class="bal-container-small">
+    
+                <div class="bal-before">
+                  <div class="bal-before-inset">
+                  <img src="./static/img/comparison_gt/1_groundtruth.png">
+                    <div class="bal-beforePosition beforeLabel">
+                      Ground Truth
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="bal-after">
+                  <img src="./static/img/comparison_gt/1_LVI3DGS.png">
+                  <div class="bal-afterPosition afterLabel">
+                    Ours
+                  </div>
+                </div>
+              
+                <div class="bal-handle">
+                  <span class=" handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- right -->      
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content">
+           
+            <div id="example2" class="bal-container-small">
+            
+              <div class="bal-before">
+                <div class="bal-before-inset">
+                <img src="./static/img/comparison_gt/2_groundtruth.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Ground Truth
+                  </div>
+                </div>
+              </div>
+
+              <div class="bal-after">
+                <img src="./static/img/comparison_gt/2_LVI3DGS.png">
+                <div class="bal-afterPosition afterLabel">
+                  Ours
+                </div>
+              </div>
+            
+              <div class="bal-handle">
+                <span class=" handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
   </div>
 </section>
 
@@ -321,15 +476,8 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>
-      @article{GWPHKU:ESVIO,
-        title={ESVIO: Event-based Stereo Visual Inertial Odometry},
-        author={Chen, Peiyu and Guan, Weipeng and Lu, Peng},
-        journal={IEEE Robotics and Automation Letters},
-        year={2023},
-        volume={8},
-        number={6},
-        pages={3661-3668},
-        publisher={IEEE}
+      @article{GWPHKU:LVI-GS,
+      ******
       }
     </code></pre>
   </div>
@@ -408,6 +556,18 @@
   });
   new BeforeAfter({
       id: '#example2'
+  });
+  new BeforeAfter({
+      id: '#example3'
+  });
+  new BeforeAfter({
+      id: '#example4'
+  });
+  new BeforeAfter({
+      id: '#example5'
+  });
+  new BeforeAfter({
+      id: '#example6'
   });
 </script>
 
