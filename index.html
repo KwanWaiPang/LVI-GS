@@ -312,6 +312,78 @@
         </div>
       </div>
     </div>
+    <div class="columns is-centered">
+      <!-- left. -->
+      <div class="column">
+        <div class="content">
+          <div class="columns is-centered">
+            <div class="column is-full-width">
+              
+              <div id="example7" class="bal-container-small">
+    
+                <div class="bal-before">
+                  <div class="bal-before-inset">
+                  <img src="./static/img/comparison_monoGS/6_MonoGS.jpg">
+                    <div class="bal-beforePosition beforeLabel">
+                      MonoGS (CVPR 2024)
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="bal-after">
+                  <img src="./static/img/comparison_monoGS/6_LVI3DGS.png">
+                  <div class="bal-afterPosition afterLabel">
+                    Ours
+                  </div>
+                </div>
+              
+                <div class="bal-handle">
+                  <span class=" handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- right -->      
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content">
+           
+            <div id="example8" class="bal-container-small">
+            
+              <div class="bal-before">
+                <div class="bal-before-inset">
+                <img src="./static/img/comparison_monoGS/7_MonoGS.jpg">
+                  <div class="bal-beforePosition beforeLabel">
+                    MonoGS (CVPR 2024)
+                  </div>
+                </div>
+              </div>
+
+              <div class="bal-after">
+                <img src="./static/img/comparison_monoGS/7_LVI3DGS.png">
+                <div class="bal-afterPosition afterLabel">
+                  Ours
+                </div>
+              </div>
+            
+              <div class="bal-handle">
+                <span class=" handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- 跟真值对比 -->
     <div class="columns is-centered">
@@ -484,6 +556,48 @@
 </section>
 
 
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <h2 class="title is-2">More Demo Results</h2>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/video/1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/video/2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/video/3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+        <div class="item item-video4">
+          <video poster="" id="video4" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/video/4.mp4"
+                    type="video/mp4">
+          </video>
+          </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- 页脚 -->
 <footer class="footer">
   <div class="container">
@@ -568,6 +682,12 @@
   });
   new BeforeAfter({
       id: '#example6'
+  });
+  new BeforeAfter({
+      id: '#example7'
+  });
+  new BeforeAfter({
+      id: '#example8'
   });
 </script>
 
