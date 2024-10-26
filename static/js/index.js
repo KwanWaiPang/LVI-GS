@@ -1,6 +1,6 @@
 window.HELP_IMPROVE_VIDEOJS = false;
 
-var INTERP_BASE = "./static/interpolation/stacked";
+var INTERP_BASE = "./static/interpolation/stacked/render_step";
 // var NUM_INTERP_FRAMES = 30; //240;
 
 var NUM_INTERP_FRAMES
@@ -15,7 +15,7 @@ var interp_images = [];
 function preloadInterpolationImages() {
   for (var i = START_INTERP_FRAMES; i < NUM_INTERP_FRAMES; i++) {
     // var path = INTERP_BASE + '/' + String(i).padStart(6, '0') + '.jpg';
-    var path = INTERP_BASE + '/图片' + (i + 1) + '.png'; // 将i + 1用于生成“图片1.png”
+    var path = INTERP_BASE + '/' + (i )*5 + '.png'; // 将i + 1用于生成“图片1.png”
     interp_images[i] = new Image();
     interp_images[i].src = path;
   }
@@ -85,6 +85,7 @@ $(document).ready(function() {
     $('#interpolation-slider').on('input', function(event) {
       setInterpolationImage(this.value);
     });
+    
     setInterpolationImage(startIndex);
     $('#interpolation-slider').prop('min', startIndex);
     $('#interpolation-slider').prop('max', NUM_INTERP_FRAMES - 1);

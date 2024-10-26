@@ -280,6 +280,41 @@
 
 <section class="section">
   <div class="container is-max-desktop">
+
+    <!-- 拖动可视化建图效果 -->
+    <div class="column is-full-width">
+      <h2 class="title is-3">Different Training Iteration</h2>
+
+      <div class="columns is-vcentered interpolation-panel">
+        <div class="column is-3 has-text-centered">
+          <img src="./static/img/***"
+               class="interpolation-image"
+               alt="Interpolate start reference image."/>
+          <p>Ground Truth</p>
+        </div>
+
+        <div class="column interpolation-video-column">
+          <div id="interpolation-image-wrapper">
+            Loading...
+          </div>
+          <input class="slider is-fullwidth is-large is-info"
+              id="interpolation-slider"
+              data-start-index="0"
+              data-max-frames="99"
+              step="1" min="0" max="100" value="0" type="range">
+        </div>
+
+        <div class="column is-3 has-text-centered">
+          <img src="./static/img/***"
+               class="interpolation-image"
+               alt="Interpolation end reference image."/>
+          <p class="is-bold">Our Rendering Results</p>
+        </div>
+
+      </div>
+    </div>
+
+
     <h2 class="title is-3">Visual Comparisons</h2>
     <div class="content has-text-justified">
       <p>
@@ -325,25 +360,24 @@
         </div>
       </div>
       
-
       <!-- right -->      
       <div class="column">
         <div class="columns is-centered">
           <div class="column content">
            
-            <div id="example6" class="bal-container-small">
+            <div id="example8" class="bal-container-small">
             
               <div class="bal-before">
                 <div class="bal-before-inset">
-                <img src="./static/img/comparison_photoslam/4_photoslam.jpg">
+                <img src="./static/img/comparison_monoGS/7_MonoGS.jpg">
                   <div class="bal-beforePosition beforeLabel">
-                    Photo-SLAM (CVPR 2024)
+                    MonoGS (CVPR 2024)
                   </div>
                 </div>
               </div>
 
               <div class="bal-after">
-                <img src="./static/img/comparison_photoslam/4_LVI3DGS.png">
+                <img src="./static/img/comparison_monoGS/7_LVI3DGS.png">
                 <div class="bal-afterPosition afterLabel">
                   Ours
                 </div>
@@ -398,39 +432,39 @@
       </div>
       
 
-      <!-- right -->      
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content">
-           
-            <div id="example8" class="bal-container-small">
-            
-              <div class="bal-before">
-                <div class="bal-before-inset">
-                <img src="./static/img/comparison_monoGS/7_MonoGS.jpg">
-                  <div class="bal-beforePosition beforeLabel">
-                    MonoGS (CVPR 2024)
-                  </div>
+     <!-- right -->      
+     <div class="column">
+      <div class="columns is-centered">
+        <div class="column content">
+         
+          <div id="example6" class="bal-container-small">
+          
+            <div class="bal-before">
+              <div class="bal-before-inset">
+              <img src="./static/img/comparison_photoslam/4_photoslam.jpg">
+                <div class="bal-beforePosition beforeLabel">
+                  Photo-SLAM (CVPR 2024)
                 </div>
               </div>
-
-              <div class="bal-after">
-                <img src="./static/img/comparison_monoGS/7_LVI3DGS.png">
-                <div class="bal-afterPosition afterLabel">
-                  Ours
-                </div>
-              </div>
-            
-              <div class="bal-handle">
-                <span class=" handle-left-arrow"></span>
-                <span class="handle-right-arrow"></span>
-              </div>
-            
             </div>
 
+            <div class="bal-after">
+              <img src="./static/img/comparison_photoslam/4_LVI3DGS.png">
+              <div class="bal-afterPosition afterLabel">
+                Ours
+              </div>
+            </div>
+          
+            <div class="bal-handle">
+              <span class=" handle-left-arrow"></span>
+              <span class="handle-right-arrow"></span>
+            </div>
+          
           </div>
+
         </div>
       </div>
+    </div>
     </div>
 
     <!-- 跟真值对比 -->
