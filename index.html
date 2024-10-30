@@ -625,6 +625,82 @@
 
     </div>
 
+     <!-- 跟真值对比 -->
+     <div class="columns is-centered">
+      <!-- left. -->
+      <div class="column">
+        <div class="content">
+          <div class="columns is-centered">
+            <div class="column is-full-width">
+              
+              <div id="example9" class="bal-container-small">
+    
+                <div class="bal-before">
+                  <div class="bal-before-inset">
+                  <img src="./static/img/comparison_gt/499_2_gt.png">
+                    <div class="bal-beforePosition beforeLabel">
+                      Ground Truth
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="bal-after">
+                  <img src="./static/img/comparison_gt/499_2_render.png">
+                  <div class="bal-afterPosition afterLabel">
+                    Ours
+                  </div>
+                </div>
+              
+                <div class="bal-handle">
+                  <span class=" handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- right -->      
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content">
+           
+            <div id="example10" class="bal-container-small">
+            
+              <div class="bal-before">
+                <div class="bal-before-inset">
+                <img src="./static/img/comparison_gt/499_13_gt.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Ground Truth
+                  </div>
+                </div>
+              </div>
+
+              <div class="bal-after">
+                <img src="./static/img/comparison_gt/499_13_render.png">
+                <div class="bal-afterPosition afterLabel">
+                  Ours
+                </div>
+              </div>
+            
+              <div class="bal-handle">
+                <span class=" handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
 
   </div>
 </section>
@@ -735,6 +811,13 @@
   new BeforeAfter({
       id: '#example8'
   });
+  new BeforeAfter({
+    id: '#example9'
+  });
+  new BeforeAfter({
+    id: '#example10'
+  });
+
 </script>
 
 </body>
