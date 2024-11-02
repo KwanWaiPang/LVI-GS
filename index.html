@@ -260,6 +260,11 @@
           Through well-designed strategies for Gaussian-Map expansion, keyframes selection, and custom CUDA acceleration, our framework achieves real-time photo-realistic mapping.
           Numerical experiments are performed to evaluate the superior performance of our method compared to state-of-the-art 3D reconstruction systems.
         </div>
+
+        <img src="./static/img/outoor_testing.png"
+        class="interpolation-image"
+        alt="First Image"/>
+
       </div>
     </div>
     <!--/ Abstract. -->
@@ -284,42 +289,6 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-
-    <!-- 拖动可视化建图效果 -->
-    <div class="column is-full-width">
-      <h2 class="title is-3">Iteratively Training</h2>
-
-      <!-- <div class="columns is-vcentered interpolation-panel"> -->
-      <div class="columns is-centered interpolation-panel">
-        <!-- <div class="column is-3 has-text-centered"> -->
-          <!-- <img src="./static/img/***" -->
-               <!-- class="interpolation-image" -->
-               <!-- alt="Interpolate start reference image."/> -->
-          <!-- <p>Ground Truth</p> -->
-        <!-- </div> -->
-        
-        <!-- <div class="column interpolation-video-column"> -->
-        <div class="column is-half interpolation-video-column">
-          <div id="interpolation-image-wrapper">
-            Loading...
-          </div>
-          <input class="slider is-fullwidth is-large is-info"
-              id="interpolation-slider"
-              data-start-index="0"
-              data-max-frames="99"
-              step="1" min="0" max="100" value="0" type="range">
-        </div>
-
-        <!-- <div class="column is-3 has-text-centered"> -->
-          <!-- <img src="./static/img/***" -->
-               <!-- class="interpolation-image" -->
-               <!-- alt="Interpolation end reference image."/> -->
-          <!-- <p class="is-bold">Our Rendering Results</p> -->
-        <!-- </div> -->
-
-      </div>
-    </div>
-
 
     <h2 class="title is-3">Visual Comparisons</h2>
     <div class="content has-text-justified">
@@ -702,7 +671,43 @@
     </div>
 
 
+    <!-- 拖动可视化建图效果 -->
+    <div class="column is-full-width">
+      <h2 class="title is-3">Iteratively Training</h2>
+
+      <!-- <div class="columns is-vcentered interpolation-panel"> -->
+      <div class="columns is-centered interpolation-panel">
+        <!-- <div class="column is-3 has-text-centered"> -->
+          <!-- <img src="./static/img/***" -->
+                <!-- class="interpolation-image" -->
+                <!-- alt="Interpolate start reference image."/> -->
+          <!-- <p>Ground Truth</p> -->
+        <!-- </div> -->
+        
+        <!-- <div class="column interpolation-video-column"> -->
+        <div class="column is-half interpolation-video-column">
+          <div id="interpolation-image-wrapper">
+            Loading...
+          </div>
+          <input class="slider is-fullwidth is-large is-info"
+              id="interpolation-slider"
+              data-start-index="0"
+              data-max-frames="99"
+              step="1" min="0" max="100" value="0" type="range">
+        </div>
+
+        <!-- <div class="column is-3 has-text-centered"> -->
+          <!-- <img src="./static/img/***" -->
+                <!-- class="interpolation-image" -->
+                <!-- alt="Interpolation end reference image."/> -->
+          <!-- <p class="is-bold">Our Rendering Results</p> -->
+        <!-- </div> -->
+
+      </div>
+    </div>
+
   </div>
+
 </section>
 
 
