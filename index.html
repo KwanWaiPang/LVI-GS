@@ -255,11 +255,13 @@
 
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          3D Gaussian Splatting (3DGS) has shown its ability in rapid rendering and high-fidelity mapping.
-          In this work, we introduce LVI-GS, a tightly-coupled LiDAR-Visual-Inertial mapping framework with 3DGS, which leverages the complementary characteristics of LiDAR and image sensors to capture both geometric structures and visual details of 3D scenes
-          To this end, the Gaussians are initialized from colorized LiDAR points and optimized using differentiable rendering.
-          Through well-designed strategies for Gaussian-Map expansion, keyframes selection, and custom CUDA acceleration, our framework achieves real-time photo-realistic mapping.
-          Numerical experiments are performed to evaluate the superior performance of our method compared to state-of-the-art 3D reconstruction systems.
+        3D Gaussian Splatting (3DGS) has shown its ability in rapid rendering and high-fidelity mapping.
+        In this paper, we introduce LVI-GS, a tightly-coupled LiDAR-Visual-Inertial mapping framework with 3DGS, which leverages the complementary characteristics of LiDAR and image sensors to capture both geometric structures and visual details of 3D scenes.
+        To this end, the 3D Gaussians are initialized from colourized LiDAR points and optimized using differentiable rendering.
+        In order to achieve high-fidelity mapping, we introduce a pyramid-based training approach to learn multi-level features and incorporate depth loss derived from LiDAR measurements to improve geometric feature perception.
+        Through well-designed strategies for Gaussian-Map expansion, keyframe selection, thread management, and custom CUDA acceleration, our framework achieves real-time photo-realistic mapping.
+        Numerical experiments are performed to evaluate the superior performance of our method compared to state-of-the-art 3D reconstruction systems.
+        <!-- Videos of the evaluations can be found on our website: \url{https://kwanwaipang.github.io/LVI-GS/}. -->
         </div>
 
         <img src="./static/img/outoor_testing.png"
