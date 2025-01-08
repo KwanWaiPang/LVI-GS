@@ -1,0 +1,67 @@
+\documentclass[lettersize,journal]{IEEEtran}
+\usepackage{amsmath,amsfonts}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{array}
+% \usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\usepackage{textcomp}
+\usepackage{stfloats}
+
+\usepackage{url}
+\usepackage{hyperref}%点击链接
+\hypersetup{colorlinks=true, linkcolor=black} %修改链接颜色
+
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{cite}
+\usepackage{balance}%最后一页 参考文献不平衡
+\hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
+% updated with editorial comments 8/9/2021
+\usepackage{multirow}
+\usepackage{underscore}
+\usepackage{booktabs}
+\usepackage{soul}%用于highlight
+\begin{document}
+
+\begin{table*}[ht]
+\centering
+\caption{Start-to-End Drift Error for Different Test Sequences}
+\label{tab:drift_error}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Test Sequences}          & \textbf{Displacement (meters)} & \textbf{Rotation (degrees)} \\ 
+\midrule
+degenerate\_seq\_00 (r1)        & 0.037                     & 0.409                 \\ 
+degenerate\_seq\_01 (r2)        & 0.117                     & 0.536                 \\ 
+degenerate\_seq\_02 (m0)        & 0.064                     & 1.131                 \\ 
+LiDAR\_Degenerate (f1)          & 8.815                     & 1.873                 \\ 
+Visual\_Challenge (f2)          & 0.252                     & 0.752                 \\ 
+hku2 (f0)                       & 0.072                     & 1.584                 \\ 
+hku\_campus\_seq\_00 (r0)       & 0.039                     & 4.380                 \\ 
+hkust\_campus\_00 (m2)          & 4.567                     & 2.105                 \\ 
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table}
+\centering
+\caption{Time costs of different components.}
+\renewcommand{\arraystretch}{1.2} % Adjust row height
+\setlength{\tabcolsep}{12pt}      % Adjust column separation
+\begin{tabular}{l r}
+\toprule
+\textbf{Component}                & \textbf{Time Cost (ms)} \\ \midrule
+Odometry per-frame                & 9.42                    \\
+Keyframe selection per-frame      & 0.098                   \\
+Gaussian rendering per-frame      & 0.93                    \\
+Pyramids processing per-frame     & 2.2                     \\
+Optimization per-iteration        & 23.0                    \\ \bottomrule
+\end{tabular}
+\label{tab:time_costs}
+\end{table}
+
+
+
+\end{document}

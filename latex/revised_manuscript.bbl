@@ -1,0 +1,125 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{kazerouni2022survey}
+I.~A. Kazerouni, L.~Fitzgerald, G.~Dooly, and D.~Toal, ``A survey of state-of-the-art on visual slam,'' \emph{Expert Systems with Applications}, vol. 205, p. 117734, 2022.
+
+\bibitem{huang2022vwr}
+J.~Huang, S.~Wen, W.~Liang, and W.~Guan, ``Vwr-slam: Tightly coupled slam system based on visible light positioning landmark, wheel odometer, and rgb-d camera,'' \emph{IEEE Transactions on Instrumentation and Measurement}, vol.~72, pp. 1--12, 2022.
+
+\bibitem{li2022intensity}
+H.~Li, B.~Tian, H.~Shen, and J.~Lu, ``An intensity-augmented lidar-inertial slam for solid-state lidars in degenerated environments,'' \emph{IEEE Transactions on Instrumentation and Measurement}, vol.~71, pp. 1--10, 2022.
+
+\bibitem{elfes1989using}
+A.~Elfes, ``Using occupancy grids for mobile robot perception and navigation,'' \emph{Computer}, vol.~22, no.~6, pp. 46--57, 1989.
+
+\bibitem{reijgwart2019voxgraph}
+V.~Reijgwart, A.~Millane, H.~Oleynikova, R.~Siegwart, C.~Cadena, and J.~Nieto, ``Voxgraph: Globally consistent, volumetric mapping using signed distance function submaps,'' \emph{IEEE Robotics and Automation Letters}, vol.~5, no.~1, pp. 227--234, 2019.
+
+\bibitem{lin2023immesh}
+J.~Lin, C.~Yuan, Y.~Cai, H.~Li, Y.~Ren, Y.~Zou, X.~Hong, and F.~Zhang, ``Immesh: An immediate lidar localization and meshing framework,'' \emph{IEEE Transactions on Robotics}, 2023.
+
+\bibitem{mildenhall2021nerf}
+B.~Mildenhall, P.~P. Srinivasan, M.~Tancik, J.~T. Barron, R.~Ramamoorthi, and R.~Ng, ``Nerf: Representing scenes as neural radiance fields for view synthesis,'' \emph{Communications of the ACM}, vol.~65, no.~1, pp. 99--106, 2021.
+
+\bibitem{imap}
+E.~Sucar, S.~Liu, J.~Ortiz, and A.~J. Davison, ``imap: Implicit mapping and positioning in real-time,'' in \emph{Proceedings of the IEEE/CVF international conference on computer vision}, 2021, pp. 6229--6238.
+
+\bibitem{niceslam}
+Z.~Zhu, S.~Peng, V.~Larsson, W.~Xu, H.~Bao, Z.~Cui, M.~R. Oswald, and M.~Pollefeys, ``Nice-slam: Neural implicit scalable encoding for slam,'' in \emph{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, 2022, pp. 12\,786--12\,796.
+
+\bibitem{voxfusion}
+X.~Yang, H.~Li, H.~Zhai, Y.~Ming, Y.~Liu, and G.~Zhang, ``Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation,'' in \emph{2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2022, pp. 499--507.
+
+\bibitem{coslam}
+H.~Wang, J.~Wang, and L.~Agapito, ``Co-slam: Joint coordinate and sparse parametric encodings for neural real-time slam,'' in \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2023, pp. 13\,293--13\,302.
+
+\bibitem{esslam}
+M.~M. Johari, C.~Carta, and F.~Fleuret, ``Eslam: Efficient dense slam system based on hybrid representation of signed distance fields,'' in \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2023, pp. 17\,408--17\,419.
+
+\bibitem{fei20243d}
+B.~Fei, J.~Xu, R.~Zhang, Q.~Zhou, W.~Yang, and Y.~He, ``3d gaussian as a new vision era: A survey,'' \emph{arXiv preprint arXiv:2402.07181}, 2024.
+
+\bibitem{kerbl20233d}
+B.~Kerbl, G.~Kopanas, T.~Leimk{\"u}hler, and G.~Drettakis, ``3d gaussian splatting for real-time radiance field rendering.'' \emph{ACM Trans. Graph.}, vol.~42, no.~4, pp. 139--1, 2023.
+
+\bibitem{monogs}
+H.~Matsuki, R.~Murai, P.~H. Kelly, and A.~J. Davison, ``Gaussian splatting slam,'' in \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2024, pp. 18\,039--18\,048.
+
+\bibitem{splatam}
+N.~Keetha, J.~Karhade, K.~M. Jatavallabhula, G.~Yang, S.~Scherer, D.~Ramanan, and J.~Luiten, ``Splatam: Splat track \& map 3d gaussians for dense rgb-d slam,'' in \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2024, pp. 21\,357--21\,366.
+
+\bibitem{gsslam}
+C.~Yan, D.~Qu, D.~Xu, B.~Zhao, Z.~Wang, D.~Wang, and X.~Li, ``Gs-slam: Dense visual slam with 3d gaussian splatting,'' in \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2024, pp. 19\,595--19\,604.
+
+\bibitem{photoslam}
+H.~Huang, L.~Li, H.~Cheng, and S.-K. Yeung, ``Photo-slam: Real-time simultaneous localization and photorealistic mapping for monocular stereo and rgb-d cameras,'' in \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 2024, pp. 21\,584--21\,593.
+
+\bibitem{livgaussmap}
+S.~Hong, J.~He, X.~Zheng, C.~Zheng, and S.~Shen, ``Liv-gaussmap: Lidar-inertial-visual fusion for real-time 3d radiance field map rendering,'' \emph{IEEE Robotics and Automation Letters}, 2024.
+
+\bibitem{letsgo}
+J.~Cui, J.~Cao, Y.~Zhong, L.~Wang, F.~Zhao, P.~Wang, Y.~Chen, Z.~He, L.~Xu, Y.~Shi, \emph{et~al.}, ``Letsgo: Large-scale garage modeling and rendering via lidar-assisted gaussian primitives,'' \emph{arXiv preprint arXiv:2404.09748}, 2024.
+
+\bibitem{gaussianlic}
+X.~Lang, L.~Li, H.~Zhang, F.~Xiong, M.~Xu, Y.~Liu, X.~Zuo, and J.~Lv, ``Gaussian-lic: Photo-realistic lidar-inertial-camera slam with 3d gaussian splatting,'' \emph{arXiv preprint arXiv:2404.06926}, 2024.
+
+\bibitem{goslam}
+Y.~Zhang, F.~Tosi, S.~Mattoccia, and M.~Poggi, ``Go-slam: Global optimization for consistent 3d instant reconstruction,'' in \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision}, 2023, pp. 3727--3737.
+
+\bibitem{pointslam}
+E.~Sandstr{\"o}m, Y.~Li, L.~Van~Gool, and M.~R. Oswald, ``Point-slam: Dense neural point cloud-based slam,'' in \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision}, 2023, pp. 18\,433--18\,444.
+
+\bibitem{orbeez}
+C.-M. Chung, Y.-C. Tseng, Y.-C. Hsu, X.-Q. Shi, Y.-H. Hua, J.-F. Yeh, W.-C. Chen, Y.-T. Chen, and W.~H. Hsu, ``Orbeez-slam: A real-time monocular visual slam with orb features and nerf-realized mapping,'' in \emph{2023 IEEE International Conference on Robotics and Automation (ICRA)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2023, pp. 9400--9406.
+
+\bibitem{nerfslam}
+A.~Rosinol, J.~J. Leonard, and L.~Carlone, ``Nerf-slam: Real-time dense monocular slam with neural radiance fields,'' in \emph{2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2023, pp. 3437--3444.
+
+\bibitem{nerfvo}
+J.~Naumann, B.~Xu, S.~Leutenegger, and X.~Zuo, ``Nerf-vo: Real-time sparse visual odometry with neural radiance fields,'' \emph{IEEE Robotics and Automation Letters}, 2024.
+
+\bibitem{gsicp}
+S.~Ha, J.~Yeon, and H.~Yu, ``Rgbd gs-icp slam,'' \emph{arXiv preprint arXiv:2403.12550}, 2024.
+
+\bibitem{gicp}
+A.~Segal, D.~Haehnel, and S.~Thrun, ``Generalized-icp.'' in \emph{Robotics: science and systems}, vol.~2, no.~4.\hskip 1em plus 0.5em minus 0.4em\relax Seattle, WA, 2009, p. 435.
+
+\bibitem{orbslam3}
+C.~Campos, R.~Elvira, J.~J.~G. Rodr{\'\i}guez, J.~M. Montiel, and J.~D. Tard{\'o}s, ``Orb-slam3: An accurate open-source library for visual, visual--inertial, and multimap slam,'' \emph{IEEE Transactions on Robotics}, vol.~37, no.~6, pp. 1874--1890, 2021.
+
+\bibitem{mmgaussian}
+C.~Wu, Y.~Duan, X.~Zhang, Y.~Sheng, J.~Ji, and Y.~Zhang, ``Mm-gaussian: 3d gaussian-based multi-modal fusion for localization and reconstruction in unbounded scenes,'' \emph{arXiv preprint arXiv:2404.04026}, 2024.
+
+\bibitem{mm3dgs}
+L.~C. Sun, N.~P. Bhatt, J.~C. Liu, Z.~Fan, Z.~Wang, T.~E. Humphreys, and U.~Topcu, ``Mm3dgs slam: Multi-modal 3d gaussian splatting for slam using vision, depth, and inertial measurements,'' \emph{arXiv preprint arXiv:2404.00923}, 2024.
+
+\bibitem{r3live}
+J.~Lin and F.~Zhang, ``R 3 live: A robust, real-time, rgb-colored, lidar-inertial-visual tightly-coupled state estimation and mapping package,'' in \emph{2022 International Conference on Robotics and Automation (ICRA)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2022, pp. 10\,672--10\,678.
+
+\bibitem{fastlivo}
+C.~Zheng, Q.~Zhu, W.~Xu, X.~Liu, Q.~Guo, and F.~Zhang, ``Fast-livo: Fast and tightly-coupled sparse-direct lidar-inertial-visual odometry,'' in \emph{2022 IEEE/RSJ international conference on intelligent robots and systems (IROS)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2022, pp. 4003--4009.
+
+\bibitem{gaussianslam}
+V.~Yugay, Y.~Li, T.~Gevers, and M.~R. Oswald, ``Gaussian-slam: Photo-realistic dense slam with gaussian splatting,'' \emph{arXiv preprint arXiv:2312.10070}, 2023.
+
+\bibitem{droidslam}
+Z.~Teed and J.~Deng, ``Droid-slam: Deep visual slam for monocular, stereo, and rgb-d cameras,'' \emph{Advances in neural information processing systems}, vol.~34, pp. 16\,558--16\,569, 2021.
+
+\end{thebibliography}
