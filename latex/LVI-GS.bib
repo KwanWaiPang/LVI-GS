@@ -12,13 +12,29 @@
 @string{icra = "{IEEE Int. Conf. on Robotics and Automation}"}
 @string{robio = "{Int. Conf. Robotics and Biomimetics}  24-33  39-42  1-5  44" }
 
+@IEEEtranBSTCTL{IEEEexample:BSTcontrol,
+    CTLuse_article_number = "yes",
+    CTLuse_paper = "yes",
+    CTLuse_forced_etal = "yes",
+    CTLmax_names_forced_etal = "6",
+    CTLnames_show_etal = "1",
+    CTLuse_alt_spacing = "yes",
+    CTLalt_stretch_factor = "4",
+    CTLdash_repeated_names = "yes",
+    CTLname_format_string = "{f.~}{vv~}{ll}{, jj}",
+    CTLname_latex_cmd = "",
+    CTLname_url_prefix = "[Online]. Available:"
+ }
+
 %%%%%%%%%%%%%%%%%%%%%%%%
 3DGS based
-@article{gsicp,
+@inproceedings{gsicp,
   title={Rgbd gs-icp slam},
   author={Ha, Seongbo and Yeon, Jiung and Yu, Hyeonwoo},
-  journal={arXiv preprint arXiv:2403.12550},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  pages={180--197},
+  year={2024},
+  organization={Springer}
 }
 
 @inproceedings{monogs,
@@ -91,11 +107,16 @@
 }
 
 @article{letsgo,
-  title={LetsGo: Large-Scale Garage Modeling and Rendering via LiDAR-Assisted Gaussian Primitives},
-  author={Cui, Jiadi and Cao, Junming and Zhong, Yuhui and Wang, Liao and Zhao, Fuqiang and Wang, Penghao and Chen, Yifan and He, Zhipeng and Xu, Lan and Shi, Yujiao and others},
-  journal={arXiv preprint arXiv:2404.09748},
-  year={2024}
+  title={LetsGo: Large-scale garage modeling and rendering via LiDAR-assisted Gaussian primitives},
+  author={Cui, Jiadi and Cao, Junming and Zhao, Fuqiang and He, Zhipeng and Chen, Yifan and Zhong, Yuhui and Xu, Lan and Shi, Yujiao and Zhang, Yingliang and Yu, Jingyi},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={43},
+  number={6},
+  pages={1--18},
+  year={2024},
+  publisher={ACM New York, NY, USA}
 }
+
 %%%%%%%%%%%%%
 
 
@@ -109,21 +130,12 @@ NeRF based
   year={2021}
 }
 
-@inproceedings{niceslam,
+   @inproceedings{niceslam,
   title={Nice-slam: Neural implicit scalable encoding for slam},
   author={Zhu, Zihan and Peng, Songyou and Larsson, Viktor and Xu, Weiwei and Bao, Hujun and Cui, Zhaopeng and Oswald, Martin R and Pollefeys, Marc},
   booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
   pages={12786--12796},
   year={2022}
-}
-
-@inproceedings{nicerslam,
-  title={Nicer-slam: Neural implicit scene encoding for rgb slam},
-  author={Zhu, Zihan and Peng, Songyou and Larsson, Viktor and Cui, Zhaopeng and Oswald, Martin R and Geiger, Andreas and Pollefeys, Marc},
-  booktitle={2024 International Conference on 3D Vision (3DV)},
-  pages={42--52},
-  year={2024},
-  organization={IEEE}
 }
 
 @article{droidslam,
@@ -287,10 +299,11 @@ other
 }
 
 @article{fei20243d,
-  title={3d gaussian as a new vision era: A survey},
+  title={3d gaussian splatting as new era: A survey},
   author={Fei, Ben and Xu, Jingyi and Zhang, Rui and Zhou, Qingyuan and Yang, Weidong and He, Ying},
-  journal={arXiv preprint arXiv:2402.07181},
-  year={2024}
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2024},
+  publisher={IEEE}
 }
 
 @article{orbslam3,
